@@ -129,7 +129,7 @@ end
 
 # returns the number of points scored for that player
 def num_points_scored(player_name)
-  players = game_hash[:home][:players]
+  players = game_hash[:home][:players].
   binding.pry 
 end 
 
