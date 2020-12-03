@@ -127,7 +127,7 @@ def game_hash
   }
 end
 
-# 
+# returns the number of points scored for that player
 def num_points_scored(player_name)
   binding.pry 
 end 
