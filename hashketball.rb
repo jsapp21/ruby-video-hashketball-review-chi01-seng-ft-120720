@@ -132,6 +132,7 @@ def num_points_scored(player_name)
   game_hash.each do |team_side, row_index|
     counter +=1 
     team_side.each do |a, b|
+      binding.pry 
     end 
   end 
 end 
