@@ -129,6 +129,7 @@ end
 
 # returns the number of points scored for that player
 def num_points_scored(player_name)
+  counter = 0
   game_hash.each do |team_side, row_index|
     counter +=1 
     team_side.each do |a, b|
