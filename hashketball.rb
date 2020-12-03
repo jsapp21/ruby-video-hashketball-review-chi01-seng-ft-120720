@@ -129,7 +129,8 @@ end
 
 # returns the number of points scored for that player
 def num_points_scored(player_name)
-  game_hash.each_with_index() do || 
+  game_hash.each_with_index() do |item, index|
+    
   end 
 end 
 
